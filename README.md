@@ -1,6 +1,7 @@
 # npm-read-files
-read_files([file_path], function(data_in_files){
 
+ read lines from multiple files, and process data in the callback
+ 
 ```
 var file_names = ["file1", "file2"];
 require("read_files.js")(file_names, function(lines_in_files){
